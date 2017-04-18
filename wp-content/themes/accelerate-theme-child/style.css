@@ -48,3 +48,44 @@
 	color: #45ac9d;
 	text-transform: uppercase;
 }
+
+/* Case study */
+
+#masthead nav {
+	padding-right: 35px;
+	/* margin-top: -25px; */
+}
+
+#masthead nav ul {
+	overflow: auto;
+	text-transform: uppercase;
+}
+
+#masthead nav ul li {
+	float: left;
+	/* margin: -25px 0 0 20px; */
+	margin: 0 0 0 20px;
+	padding-top: 0;
+}
+
+article.case-study-details {
+	margin: 20px 20px 0 0;
+}
+
+aside.case-study-aside {
+	float: left;
+	margin: 0 30px 0 0;
+	width: 290px;
+}
+
+div.case-study-images {
+	float: left;
+	width: 610px;
+	margin: 20px 0;
+}
+
+div.case-study-images img {
+	display: block;
+	margin-bottom: 50px;
+	border: 1px solid #d3d5d4;
+}
