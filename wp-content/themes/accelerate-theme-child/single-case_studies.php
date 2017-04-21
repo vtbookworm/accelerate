@@ -33,19 +33,19 @@ get_header(); ?>
 						
 						<?php the_content(); ?>
 						
-						<p><strong><a href="<?php echo $link; ?>">Site Link</a></strong></p>
+						<p><strong><a href="<?php echo $link; ?>">Visit Live Site</a></strong></p>
 					</aside>
 					
 					<div class="case-study-images">
-						<?php if(image_1) { 
+						<?php if($image_1) { 
 							echo wp_get_attachment_image( $image_1, $size );
 						} ?>
 						
-						<?php if(image_2) { 
+						<?php if($image_2) { 
 							echo wp_get_attachment_image( $image_2, $size );
 						} ?>
 						
-						<?php if(image_3) { 
+						<?php if($image_3) { 
 							echo wp_get_attachment_image( $image_3, $size );
 						} ?>
 					</div>
