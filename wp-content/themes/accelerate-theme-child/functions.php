@@ -51,3 +51,10 @@ function custom_excerpt_more($more) {
 	return '...<div class="read-more read-more-custom"><a href="'. get_permalink() . '">Read more <span>&raquo;</span></a></div>';
 }
 add_filter('excerpt_more', 'custom_excerpt_more');
+
+// enqueue scripts and stypes
+function accelerate_child_scripts() {
+	wp_enqueue_style('accelerate-child-google-fonts', '//fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300italic,400italic,600italic,400,600,700,300');
+}
+
+add_action( 'wp_enqueue_scripts', 'accelerate_child_scripts' );
