@@ -227,11 +227,54 @@ html[xmlns] .clearfix {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
 }
+	.site-footer .site-info .site-description span {
+		color: #45ac9d;
+	}
 
 .site-footer .site-info .site-description .copyright {
 	color: #a6a6a6;
 	font-size: 12px;
 }
+
+.social-media-navigation {
+	width: 30%;
+}
+
+.social-media-menu {
+	overflow: auto;
+	/* height: 30px; */
+}
+
+li.social-icon {
+	list-style-type: none;
+	float: right;
+	padding: 0;
+	font-size: 12px;
+}
+
+li.social-icon a {
+	margin: 5px;
+	padding: 0;
+}
+
+li.social-icon i {
+    border-radius: 50%;
+    border: 2px solid #3a3a3a;
+    padding: 5px;
+    color: white;
+    background-color: #3a3a3a;
+    font-size: 16px;
+	line-height: 32px;
+}
+
+li.social-icon .icon-facebook {
+	padding: 5px 11px;
+}
+
+li.social-icon .icon-linkedin {
+	padding: 5px 10px;
+}
+
 
 
 

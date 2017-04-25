@@ -16,7 +16,13 @@
 		<footer id="colophon" class="site-footer" role="contentinfo">
 			<div class="site-info">
 				<div class="site-description">
-				<p><?php bloginfo('description'); ?></p>
+				
+				<!-- Modified to make company name appear in a different color -->
+				<!-- <p> --><?php //bloginfo('description'); ?><!-- </p> -->
+				<?php green_accelerate_footer(); ?>
+				<p><span><?php bloginfo( 'name' ); ?></span><?php bloginfo( 'description' ); ?>
+				<!-- End modification -->
+				
 				<p class="copyright">&copy; <?php bloginfo('title'); ?>, LLC
 				</div>
 				

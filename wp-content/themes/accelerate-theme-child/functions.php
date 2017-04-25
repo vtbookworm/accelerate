@@ -58,3 +58,15 @@ function accelerate_child_scripts() {
 }
 
 add_action( 'wp_enqueue_scripts', 'accelerate_child_scripts' );
+
+// Remove 'Accelerate' in the description - call in footer.php ONLY
+function green_accelerate_footer() {
+	add_filter( 'option_blogdescription', 'accelerate_change_description_footer', 10, 2 );
+	
+	function accelerate_change_description_footer( $description ) {
+		$description = str_replace('Accelerate','', $description);
+		return $description;
+	}
+};
+
+// add_filter( 'storm_social_icons_type', create_function('', 'return "icon-sign";'));
