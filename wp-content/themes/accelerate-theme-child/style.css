@@ -61,6 +61,10 @@ html[xmlns] .clearfix {
 	padding-top: 0;
 }
 
+.current-menu-item {
+	font-weight: bold;
+}
+
 .button {
     background: none repeat scroll 0 0 #45ac9d;
 }
