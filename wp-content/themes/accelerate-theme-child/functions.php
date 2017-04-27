@@ -70,3 +70,16 @@ function green_accelerate_footer() {
 };
 
 // add_filter( 'storm_social_icons_type', create_function('', 'return "icon-sign";'));
+
+
+// Add specific class to Contact page 
+
+function accelerate_body_classes($classes) {
+	if (is_page('contact') ) {
+		$classes[] = 'contact';
+	}
+	return $classes;
+}
+add_filter( 'body_class','accelerate_body_classes' );
+
+

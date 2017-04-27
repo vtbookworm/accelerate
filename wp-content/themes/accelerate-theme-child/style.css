@@ -338,3 +338,123 @@ div.case-study-images img {
 	margin-bottom: 50px;
 	border: 1px solid #d3d5d4;
 }
+
+/*  Contact Us Page and Form  */
+
+
+.contact .site-content {
+	width: 620px;
+	margin: 0 auto;
+}
+
+.contact h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	color: #2b2b2b;
+}
+
+.contact p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #3b3b3b;
+}
+
+
+/* .nf-field-label {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	color: #2b2b2b;
+} */
+
+/* .container-name {
+	clear: none;
+	float: left;
+	width: 48%;
+}
+
+.container-email {
+	clear: none;
+	float: right;
+	width: 48%;
+} */
+
+#nf-field-1-container {
+	clear: none;
+	width: 48%;
+	float: left;
+}
+
+#nf-field-2-container {
+	clear: none;
+	width: 48%;
+	float: right;
+}
+
+.nf-field-label label {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	color: #2b2b2b;
+}
+
+/*
+.nf-field .name-field,
+.nf-field  .email-field,
+.nf-field  .message-field {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	border: 1px solid #bfbfbf;
+}
+
+.nf-field  .send-button {
+	width: 206px;
+	float: right;
+	color: #ffffff;
+	background-color: #45ac9d;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	padding: 10px;
+} */
+
+.nf-field-element #nf-field-1,
+.nf-field-element #nf-field-2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	border: 1px solid #bfbfbf;
+	float: left;
+} 
+
+#nf-field-4 {
+	width: 206px;
+	float: right;
+	color: #ffffff;
+	background-color: #45ac9d;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	padding: 10px;
+}
+
+.container-email {
+		float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
