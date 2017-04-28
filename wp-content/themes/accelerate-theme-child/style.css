@@ -379,7 +379,7 @@ div.case-study-images img {
 } 
 
 /* Labels on all fields */
-.nf-field-label label {
+.nf-field .nf-field-label label {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 	font-size: 14px;
