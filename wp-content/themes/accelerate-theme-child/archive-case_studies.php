@@ -2,7 +2,7 @@
 /**
  * The template for displaying archived case studies
  *
- * This is the template that displays all pages by default.
+ * This is the template that displays all case studies by default.
  * Please note that this is the WordPress construct of pages
  * and that other 'pages' on your WordPress site will use a
  * different template.

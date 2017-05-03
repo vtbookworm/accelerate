@@ -41,9 +41,37 @@ function create_custom_post_types() {
 			),
 		)
 	);
+	// create a services custom post type
+	register_post_type( 'services', 
+		array(
+			'labels' => array (
+				'name' => __( 'Services' ),
+				'singular_name' => __( 'Service' )
+			),
+			'public' => true,
+			'has_archive' => true,
+			'rewrite' => array(
+				'slug' => 'services'
+			),
+		)
+	);
+	// create an About custom post type
+	register_post_type( 'about',
+		array(
+			'labels' => array (
+				'name' => __( 'About' ),
+				'singular_name' => __('About')
+			),
+			'public' => true,
+			'has_archives' => true,
+			'rewrite' => array(
+				'slug' => 'about'
+			),
+		)
+	);
 }
  
-// Hook this custom post type function into the theme
+// Hook these custom post type functions into the theme
 add_action( 'init', 'create_custom_post_types' );
 
 // change excerpt symbol

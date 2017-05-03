@@ -424,10 +424,177 @@ div.case-study-images img {
 
 
 
+/* About Page */
+div.svc-header {
+    background: url("img/taxi-photo.jpg") no-repeat scroll left -225px / cover rgba(0, 0, 0, 0);
+	width: 100%;
+	/* height: 300px; */
+}
+
+div.svc-header p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 25px;
+	color: #ffffff;
+	width: 576px;
+	margin: 0 auto;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+
+div.svc-header p span {
+	color: #45ac9d;
+}
+
+div.svc-brief h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #3b3b3b;
+	text-align: center;
+}
+
+div.svc-brief p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	color: #3b3b3b;
+	text-align: center;
+	margin: 0 auto 50px auto;
+	width: 485px;
+}
+
+article.svc-article {
+	width: 100%;
+	margin: 0 auto;
+}
 
 
 
+.about-container {
+	padding-top: 20px;
+}
 
+.about-page {
+	background: url("img/taxi-photo.jpg") no-repeat scroll left -225px / cover rgba(0, 0, 0, 0);
+	height: 440px;
+	margin: 0 0 80px;
+	padding: 45px 0;
+	background-size: 100% 100%;
+}
+
+.about-header-text {
+}
+
+.about-header-text h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	font-weight: 600;
+	color: #ffffff;
+	width: 60%;
+	margin: 70px auto;
+	text-align: center;
+}
+
+.about-header-text h2  span {
+	color: #45ac9d;
+}
+
+.services-title {
+	margin-top: 150px;
+	text-align: center;
+}
+
+.services-title h3 {
+	color: #3b3b3b;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.services-title p {
+	color: #3b3b3b;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	width: 50%;
+	margin-left: 25%;
+}
+
+.about-contact {
+	color: #3a3939;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.about-contact h2 {
+	width: 40%;
+	padding-left: 20%;
+	float: left;
+	display: inline-block;
+}
+
+.about-contact .button {
+	background-color: #45ac9d;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px;
+	margin: 20px;
+	width: 20%;
+	float: left;
+	display: inline-block;
+}
+
+div.svc {
+	margin: 10px 0;
+	clear: both;
+}
+
+.services-section {
+	margin: 0 50px;
+}
+
+.services-text {
+	width: 70%;
+	margin: 10px 0;
+	float: right;
+	text-align: left;
+}
+
+.svc-title{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 25px;
+	color: #3b3b3b;
+	margin-top: 10px;
+}
+
+.svc-text  {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	color: #3b3b3b;
+	margin: 0;
+}
+
+.svc-image {
+	width: 24%;
+	margin: 20px;
+}
+
+.right-aligned {
+	float: right;
+}
+
+.left-aligned {
+	float: left;
+}
 
 
 
